@@ -1,0 +1,18 @@
+{
+  "name": "gsp",
+  "description": "Things and stuff",
+  "license": "GPLv2",
+  "authors": [
+    "OakwoodGates"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

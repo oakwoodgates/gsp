@@ -1,0 +1,20 @@
+{
+  "generator-plugin-wp": {
+    "name": "gsp",
+    "homepage": "https://github.com/oakwoodgates/gsp",
+    "description": "Things and stuff",
+    "version": "1.0.0",
+    "author": "OakwoodGates",
+    "authoremail": "wpguru4u@gmail.com",
+    "authorurl": "https://wpguru4u.com",
+    "license": "GPLv2",
+    "slug": "gsp",
+    "classname": "GSP",
+    "mainclassname": "GSP",
+    "classprefix": "GSP_",
+    "prefix": "gsp",
+    "year": 2019,
+    "currentVersionWP": "4.8.1",
+    "plugingenversion": "0.20.2"
+  }
+}
