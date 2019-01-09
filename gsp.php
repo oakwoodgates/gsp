@@ -115,6 +115,14 @@ final class GSP {
 	protected static $single_instance = null;
 
 	/**
+	 * Instance of GSP_Projects
+	 *
+	 * @since1.0.0
+	 * @var GSP_Projects
+	 */
+	protected $projects;
+
+	/**
 	 * Creates or returns an instance of this class.
 	 *
 	 * @since   1.0.0
@@ -145,8 +153,8 @@ final class GSP {
 	 * @since  1.0.0
 	 */
 	public function plugin_classes() {
-		// $this->plugin_class = new GSP_Plugin_Class( $this );
 
+		$this->projects = new GSP_Projects( $this );
 	} // END OF PLUGIN CLASSES FUNCTION
 
 	/**
@@ -302,6 +310,7 @@ final class GSP {
 			case 'basename':
 			case 'url':
 			case 'path':
+			case 'projects':
 				return $this->$field;
 			default:
 				throw new Exception( 'Invalid ' . __CLASS__ . ' property: ' . $field );
